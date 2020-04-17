@@ -1,0 +1,157 @@
+body{
+   margin: 0;
+   padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    left: 100%;
+}
+
+li{ 
+    font-size: .8em;
+    list-style-type: none;
+    padding: 5px;
+    float: right;
+    width: 40px;
+    height: 25px;
+}
+li:nth-child(2){
+    background: url("images/app1.png") no-repeat;
+    background-size: 25px;
+    margin-left: 15px; 
+    padding: 0;
+}
+
+li button{
+    background-color:#4484f2;
+    width: 70px;
+    height: 30px;
+    color: white;
+    border: 1px solid;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+#content{
+    text-align: center;
+    margin-top: 3.9%;
+    margin-left: 18%;
+}
+
+#content img{
+    margin-left: -23%;
+}
+
+#first-btn{
+    width: 125px;
+    height: 35px;
+    margin-top: .1%;
+    position:relative;
+    top:0;
+    right: 12%;
+}
+
+#second-btn{
+    width: 140px;
+    height: 35px;
+    position:relative;
+    right: 12%;
+}
+
+.button{
+    background-color: #f2f2f2;
+    color: #5f6368;
+    margin-left: 7px;
+    margin-top: 1%;
+    border: transparent;
+}
+
+#content form{
+	border-radius: 25px;
+	border: 0.5px solid #e3e5e8;
+	margin: 3px 35% 3px 13%;
+	height: 45px;
+	padding-left:10px;
+}
+
+#content input{
+	border: none;
+	border-color: none;
+	width: 90%;
+	height: 90%;
+	margin: 1px 0;
+	font-size: medium;
+	position: relative;
+	left: -12px;
+}
+
+#searchicon{
+	position: relative;
+	right: 8px;
+	bottom: -8px;
+}
+
+.position{
+    position:relative;
+    top:0;
+    right: 12%;
+    font-size: small;
+    text-decoration: none;
+}
+
+.position a{
+    text-decoration: none;
+}
+
+#footer{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer p, #footer div{
+	background-color: #f2f2f2;
+	padding: 12px;
+	border: 0.5px solid #e2e2e2;
+	margin: 0;
+	color: #5f6368;
+	margin: 0;
+}
+
+#footer div a{
+	text-decoration: none;
+	color: #5f6368;
+	padding:  0 1.8%; 
+	font-size:.9em;
+}
+
+#footer div{
+	clear: both;
+	display: table;
+	padding: .7%;
+	width: 98.7%;
+}
+
+#first-section{
+	float: left;
+	padding-left: 0;
+	width: 70%;
+}
+
+#second-section{
+	float: right;
+	width:15%;
+	padding-left: 0;
+	margin: 0;
+}
